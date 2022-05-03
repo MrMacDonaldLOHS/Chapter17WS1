@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Part1 Complete the node declaration
+// Part 1.1 Complete the node declaration
 struct Node
 {
 };
 
-// Part2 Define the Node constructor
+// Part 1.2 Define the Node constructor
 
 //constants
 const int SENTINEL = -999;
@@ -23,7 +23,7 @@ int main()
     cout << "Enter a number to add to the list (" << SENTINEL << " to end)";
     cin >> num;
     while (num != SENTINEL) {
-        // Part 3, create a new node pointer, and append it to the list.
+        // Part 2, create a new node pointer, and append it to the list.
     
         cout << "Enter a number to add to the list (" << SENTINEL << " to end)";
         cin >> num;
@@ -31,7 +31,7 @@ int main()
 
 	printList(head);
     
-    // Part 5, delete the list
+    // Part 3, delete the list
 
 
     return 0;
